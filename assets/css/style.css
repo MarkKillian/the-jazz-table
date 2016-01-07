@@ -10,3 +10,12 @@
 .secondary-background{
   background-color:#ffffff;
 }
+/* HEADER */
+
+header {
+ height:90px;
+ width: 100%;
+ background-color:blue;
+ padding: 10px 90px;
+ line-height: 90px;
+}
