@@ -1,21 +1,111 @@
 .primary-text{
   color:#519872;
+  font-family: 'Open Sans', sans-serif;
 }
 .primary-background{
   background-color:#519872;
 }
 .secondary-text{
   color:#ffffff;
+  font-family: 'Open Sans', sans-serif;
 }
 .secondary-background{
   background-color:#ffffff;
 }
+body{
+  background: gray;
+ /*url(assets/images/background.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
 /* HEADER */
 
-header {
- height:90px;
- width: 100%;
- background-color:blue;
- padding: 10px 90px;
- line-height: 90px;
+header{
+  padding: 0 75px;
+  height: 100px;
+  line-height: 75px;
 }
+header .bottom{
+  padding: 10px	0;
+  height: 75px;
+  border-bottom: 1px solid white;
+  overflow: auto;	
+}
+header .logo{
+  float: left;
+}
+header .logo img{
+  vertical-align: middle;
+}
+header nav{
+  float: right;
+}
+header nav ul{
+  margin: 0;	
+  padding: 0;
+  list-style-type: none;
+}
+header nav li{
+  display: inline-block;
+  margin: 0 10px;
+}
+header nav li a{
+  text-decoration:none;
+  color:white;
+}
+header nav li a:hover{
+  opacity:0.8;
+}
+
+/* MAIN */
+
+main {
+	overflow: auto;
+	padding: 10px 75px;
+	height: 500px;
+	background-color: blue;
+	text-align: center;
+}
+main h1{
+	font-weight: lighter;
+	font-size: 60px;
+}
+main .btn{
+	text-decoration:none;
+    text-align:center;
+    padding:8px 20px;
+    font-size:20px;
+    font-weight: lighter;
+    border-radius:6px;
+}
+main section{
+	padding: 10px 10px 0 10px;
+	overflow: auto;
+	height: 200px;
+	background-color: red;
+	text-align: center;
+}
+main section .special{
+	height: 200px;
+	width: 20%;
+	float:left;
+	background-color: white;
+	text-align: center;
+	padding-top: 5px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin: 0 65px;
+}
+main section .special img{
+	border-radius: 100%;
+	border: 2px solid #519872;
+}
+main section .special h4{
+	margin: 0;
+}
+
+/* FOOTER */
