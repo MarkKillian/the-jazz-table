@@ -109,3 +109,9 @@ main section .special h4{
 }
 
 /* FOOTER */
+
+footer{
+	height:400px;
+	background-color: black;
+	padding: 0 75px;
+}
