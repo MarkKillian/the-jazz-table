@@ -13,8 +13,7 @@
   background-color:#ffffff;
 }
 body{
-  background: gray;
- /*url(assets/images/background.jpg) no-repeat center center fixed; */
+  background: url('../images/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
